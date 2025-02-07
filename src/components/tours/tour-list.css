@@ -50,6 +50,10 @@
 .tour-item-title {
     font-weight: 700;
     font-size: 21px;
+   white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
 }
 
 .tour-item-duration {
@@ -74,13 +78,18 @@
     font-size: 17px;
     cursor: pointer;
     color: white;
-    background-color: blue;
+    background-color: #18153F;
     text-align: center;
     width: 100%;
     padding: 5px;
     border-radius: 7px;
     border: none;
     text-decoration: none;
+}
+.tour-item-link:hover {
+   
+    background-color: #0b083a;
+    transform: scale(1.05);
 }
 
 /* Rating */

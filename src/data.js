@@ -6,7 +6,7 @@ export const toursList = [
         rating: 4.5,
         reviews: "6,202",
         priceFrom: 35.44,
-        image: "/tours/dubai1.jpg",
+        image: "/tours/place1.jpg",
     },
     {
         id:2,
@@ -15,7 +15,7 @@ export const toursList = [
         rating: 4.5,
         reviews: "2,425",
         priceFrom: 52.96,
-        image: "/tours/dubai2.jpg",
+        image: "/tours/place2.jpg",
     },
     {
         id:3,
@@ -24,7 +24,7 @@ export const toursList = [
         rating: 4,
         reviews: "1,002",
         priceFrom: 34.21,
-        image: "/tours/dubai3.jpg",
+        image: "/tours/place3.jpg",
     },
     {
         id:4,
@@ -33,7 +33,7 @@ export const toursList = [
         rating: 3.5,
         reviews: "87",
         priceFrom: 28.98,
-        image: "/tours/dubai4.jpg",
+        image: "/tours/place4.jpg",
     },
     {
         id:5,
@@ -42,7 +42,7 @@ export const toursList = [
         rating: 4.5,
         reviews: "14,548",
         priceFrom: 31.98,
-        image: "/tours/dubai5.jpg",
+        image: "/tours/place5.jpg",
     },
     {
         id:6,
@@ -51,7 +51,7 @@ export const toursList = [
         rating: 5,
         reviews: "5,580",
         priceFrom: 25.98,
-        image: "/tours/dubai6.jpg",
+        image: "/tours/place6.jpg",
     },
     {
         id:7,
@@ -60,7 +60,7 @@ export const toursList = [
         rating: 4.5,
         reviews: "785",
         priceFrom: 53.32,
-        image: "/tours/dubai7.jpg",
+        image: "/tours/place7.jpg",
     },
     {
         id:8,
@@ -69,7 +69,7 @@ export const toursList = [
         rating: 4.5,
         reviews: "8,412",
         priceFrom: 41.96,
-        image: "/tours/dubai8.jpg",
+        image: "/tours/place8.jpg",
     },
     {
         id:9,
@@ -78,7 +78,7 @@ export const toursList = [
         rating: 5,
         reviews: "21,541",
         priceFrom: 78.90,
-        image: "/tours/dubai9.jpg",
+        image: "/tours/place9.jpg",
     },
     {
         id:10,
@@ -87,7 +87,7 @@ export const toursList = [
         rating: 4,
         reviews: "8,412",
         priceFrom: 35.98,
-        image: "/tours/dubai10.jpg",
+        image: "/tours/place10.jpg",
     },
     {
         id:11,
@@ -96,7 +96,7 @@ export const toursList = [
         rating: 3,
         reviews: "5,751",
         priceFrom: 38.26,
-        image: "/tours/dubai11.jpg",
+        image: "/tours/place11.jpg",
     },
     {
         id:12,
@@ -105,7 +105,7 @@ export const toursList = [
         rating: 4.5,
         reviews: "6,301",
         priceFrom: 41.44,
-        image: "/tours/dubai12.jpg",
+        image: "/tours/place12.jpg",
     },
     {
         id:13,
@@ -114,7 +114,7 @@ export const toursList = [
         rating: 4.8,
         reviews: "4,412",
         priceFrom: 31.44,
-        image: "/tours/dubai13.jpg",
+        image: "/tours/place13.jpg",
     },
     {
         id:14,
@@ -123,7 +123,7 @@ export const toursList = [
         rating: 5,
         reviews: "925",
         priceFrom: 92.27,
-        image: "/tours/dubai14.jpg",
+        image: "/tours/place14.jpg",
     },
     {
         id:15,
@@ -132,7 +132,7 @@ export const toursList = [
         rating: 4,
         reviews: "7,772",
         priceFrom: 44.21,
-        image: "/tours/dubai15.jpg",
+        image: "/tours/place15.jpg",
     },
     {
         id:16,
@@ -141,7 +141,7 @@ export const toursList = [
         rating: 4.6,
         reviews: "15,879",
         priceFrom: 44.98,
-        image: "/tours/dubai16.jpg",
+        image: "/tours/place16.jpg",
     },
     {
         id:17,
@@ -150,7 +150,7 @@ export const toursList = [
         rating: 4.8,
         reviews: "6,245",
         priceFrom: 21.98,
-        image: "/tours/dubai17.jpg",
+        image: "/tours/place17.jpg",
     },
     {
         id:18,
@@ -159,7 +159,7 @@ export const toursList = [
         rating: 4.1,
         reviews: "12,102",
         priceFrom: 18.21,
-        image: "/tours/dubai18.jpg",
+        image: "/tours/place18.jpg",
     },
     {
         id:19,
@@ -168,7 +168,7 @@ export const toursList = [
         rating: 4.4,
         reviews: "1,233",
         priceFrom: 48.00,
-        image: "/tours/dubai19.jpg",
+        image: "/tours/place19.jpg",
     },
     {
         id:20,
@@ -177,7 +177,7 @@ export const toursList = [
         rating: 5,
         reviews: "6,870",
         priceFrom: 161.12,
-        image: "/tours/dubai20.jpg",
+        image: "/tours/place20.jpg",
     },
     {
         id:21,
@@ -186,7 +186,7 @@ export const toursList = [
         rating: 3.9,
         reviews: "32",
         priceFrom: 78.90,
-        image: "/tours/dubai21.jpg",
+        image: "/tours/place21.jpg",
     },
     {
         id:22,
@@ -195,16 +195,16 @@ export const toursList = [
         rating: 4.1,
         reviews: "2,987",
         priceFrom: 31.98,
-        image: "/tours/dubai22.jpg",
+        image: "/tours/place22.jpg",
     },
     {
         id:23,
-        title: "Hot Air Baloon Tour Over the Dubai Desert",
+        title: "Hot Air Baloon Tour Over the place Desert",
         duration: "4 hours",
         rating: 4.5,
         reviews: "7,751",
         priceFrom: 321.26,
-        image: "/tours/dubai23.jpg",
+        image: "/tours/place23.jpg",
     },
     {
         id:24,
@@ -213,7 +213,56 @@ export const toursList = [
         rating: 4.6,
         reviews: "17,301",
         priceFrom: 58.44,
-        image: "/tours/dubai24.jpg",
+        image: "/tours/place24.jpg",
+    }, 
+     {
+        id:25,
+        title: "Desert Safari with Burj Khalifa",
+        duration: "7 hours",
+        rating: 4.6,
+        reviews: "17,301",
+        priceFrom: 68.44,
+        image: "/tours/place25.jpeg",
+    },  {
+        id:26,
+        title: "Desert Safari with Burj Khalifa",
+        duration: "7 hours",
+        rating: 4.6,
+        reviews: "17,301",
+        priceFrom: 38.44,
+        image: "/tours/place26.jpeg",
+    },  {
+        id:27,
+        title: "Desert Safari with Burj Khalifa",
+        duration: "7 hours",
+        rating: 4.6,
+        reviews: "17,301",
+        priceFrom: 58.44,
+        image: "/tours/place27.jpeg",
+    },  {
+        id:28,
+        title: "Desert Safari with Burj Khalifa",
+        duration: "7 hours",
+        rating: 4.6,
+        reviews: "17,301",
+        priceFrom: 58.44,
+        image: "/tours/place28.jpeg",
+    },  {
+        id:29,
+        title: "Desert Safari with Burj Khalifa",
+        duration: "7 hours",
+        rating: 4.6,
+        reviews: "17,301",
+        priceFrom: 58.44,
+        image: "/tours/place29.jpeg",
+    },  {
+        id:30,
+        title: "Desert Safari with Burj Khalifa",
+        duration: "7 hours",
+        rating: 4.6,
+        reviews: "17,301",
+        priceFrom: 58.44,
+        image: "/tours/place30.jpeg",
     }, 
 ]
 

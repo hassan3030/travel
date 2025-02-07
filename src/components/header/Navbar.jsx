@@ -11,21 +11,21 @@ const Navbar = ({toggle, setToggle}) => {
         
          */}
     <ul className="navbar-links">
-      <Link to="/" onClick={() => setToggle(false)} className="navbar-link">
-        <i className="bi bi-house-fill"></i>
-        Home
+      <Link to="/" onClick={() => setToggle(false)} className="navbar-link home-link" >
+        <i className="bi bi-house-fill"> Home</i>
+        
       </Link>
       <Link to="/about" onClick={() => setToggle(false)}  className="navbar-link">
-        <i className="bi bi-bank2"></i>
-        About
+        <i className="bi bi-bank2"> About</i>
+        
       </Link>
       <Link to="/login" onClick={() => setToggle(false)}  className="navbar-link">
-        <i className="bi bi-arrow-right-square-fill"></i>
-        Login
+        <i className="bi bi-arrow-right-square-fill"> Login</i>
+        
       </Link>
       <Link to="/register" onClick={() => setToggle(false)}  className="navbar-link">
-        <i className="bi bi-person-plus-fill"></i>
-        Register
+        <i className="bi bi-person-plus-fill"> Register</i>
+        
       </Link>
     </ul>
   </nav> );

@@ -38,6 +38,7 @@
     outline: none;
     padding-left: 10px;
     font-size: 21px;
+    color: #18153F;
 }
 
 .search-box-btn {
@@ -89,7 +90,12 @@
         font-size: 17px;
     }
 }
-
+@media (max-width: 520px){
+    .search-box-input {
+    width: 90%;
+   
+}
+}
 @media (max-width: 400px){
     .search-box-input{
         font-size: 14px;
@@ -100,3 +106,4 @@
         font-size: 15px;
     }
 }
+

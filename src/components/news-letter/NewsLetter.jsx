@@ -5,7 +5,7 @@ const NewsLetter = () => {
   return (
     <div className="news-letter">
       <div className="news-letter-container">
-        <div className="news-letter-image-wrappper">
+        <div className="news-letter-image-wrapper">
           <img
             src={NewsLetterImage}
             alt="news-letter"
@@ -14,10 +14,10 @@ const NewsLetter = () => {
         </div>
         <div className="news-letter-content">
           <h2 className="news-letter-content-title">
-            Your Dubai itinerary is waiting.
+            Itinerary is waiting.
           </h2>
           <p className="news-letter-content-desc">
-            Recieve a curated 48-hour itinerary featuring the most iconic
+            Receive a curated 48-hour itinerary featuring the most iconic
             experience in Dubai, straight to your inbox.
           </p>
           <div className="news-letter-inputs">

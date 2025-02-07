@@ -8,24 +8,40 @@
 
 .available-tours {
     font-size: 21px;
-    color: gray;
+    color: gray; 
 }
 
 .sort-input-container select {
-   border: none;
    padding: 10px 17px;
-   border-radius: 7px;
+   border-color: #FAAE56;
+   border-radius: 10px;
    font-size: 21px;
    font-weight: 500;
+   background-color: #FAAE56;
+   color: #18153f
 }
+
 
 .sort-input-container select:focus{
     outline: none;
+    border-bottom-right-radius:0 ;
+    border-bottom-left-radius:0 ;
+    
 }
-
+.sort-input-container select:checked{
+  border-radius: 10px;
+    
+}
 .sort-input-container select option{
     padding: 10px;
+    
 }
+
+
+option:nth-child(1):hover{  
+    background-color: #111111; 
+    color: #ffffff; 
+}  
 
 @media (max-width: 520px){
     .sort-input-container {

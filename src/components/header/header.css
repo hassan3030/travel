@@ -108,5 +108,23 @@
 
     .navbar-link{
         margin: 15px 0;
+        padding: 2px;
+        
+
     }
+    .navbar-link:hover{
+      border-radius: 10px;
+      background-color: #18153F;
+        color: white;
+        width: calc(100vw - 30vw);
+    }
+.navbar-link i:hover{
+      border-radius: 10px;
+      background-color: #18153F;
+        width: 90%;
+        color: white;
+    }
+    
+
+    
 }

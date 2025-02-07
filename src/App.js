@@ -9,9 +9,11 @@ import Register from "./pages/forms/Register";
 import icon from "./images/icons/icon.jpeg";
 import Favicon from "react-favicon";
 import "./App.css";
+import { useEffect } from "react";
 
 
 function App() {
+  useEffect(() => { window.scrollTo(0, 0) }, [])
   return (
     <>
       <Favicon url={icon} />    
