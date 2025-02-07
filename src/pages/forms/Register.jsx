@@ -14,19 +14,19 @@ const Register = () => {
     event.preventDefault();
 
     if (email.trim() === "") {
-      return toast.error("Email is required");
+      return toast.info("Email is required",);
     }
 
     if (username.trim() === "") {
-      return toast.error("Username is required");
+      return toast.info("Username is required");
     }
 
     if (password.trim() === "") {
-      return toast.error("Password is required");
+      return toast.info("Password is required");
     }
 
     if (password !== confirmPassword) {
-      return toast.error("Passwords don't match");
+      return toast.info("Passwords don't match");
     }
 
     console.log({ email, password, username });

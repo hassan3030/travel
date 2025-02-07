@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./forms.css";
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -12,18 +11,19 @@ const Login = () => {
     event.preventDefault();
     
     if(email.trim() === ""){
-        return toast.error("Email is required");
+      return toast.info("Email is required");
+      
     }
 
     if(password.trim() === ""){
-        return toast.error("Password is required");
+        return toast.info("Password is required");
     }
 
     console.log({email, password});
   };
   return (
     <div className="form-wrapper">
-        <ToastContainer theme="colored" />
+        <ToastContainer theme="light" />
       <form onSubmit={formSubmitHandler} className="form">
         <input
           onChange={(e) => setEmail(e.target.value)}
