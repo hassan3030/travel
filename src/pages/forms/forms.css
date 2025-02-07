@@ -19,6 +19,7 @@
     padding: 10px;
     font-size: 21px;
     margin-bottom: 15px;
+    border-radius: 7px;
 }
 
 .form input:focus{
@@ -27,7 +28,7 @@
 
 .form-btn {
     width: 100%;
-    background-color: blue;
+   background-color: #050c1a;
     color: white;
     cursor: pointer;
     border-radius: 60px;
@@ -36,4 +37,7 @@
     font-size: 21px;
     margin-top: 17px;
     border: none;
+}
+.form-btn:hover {
+  background-color: #0d1d38;
 }

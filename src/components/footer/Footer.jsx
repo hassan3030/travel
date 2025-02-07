@@ -40,7 +40,7 @@ const Footer = () => {
         </ul>
         <FooterIcon />
         <div className="footer-copy-right">
-            Copyright &copy; 2022 Dubai Safari
+            Copyright &copy; 2025 Hassan Hamdi
         </div>
       </div>
     </footer>

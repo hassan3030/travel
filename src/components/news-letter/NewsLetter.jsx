@@ -18,7 +18,7 @@ const NewsLetter = () => {
           </h2>
           <p className="news-letter-content-desc">
             Receive a curated 48-hour itinerary featuring the most iconic
-            experience in Dubai, straight to your inbox.
+            experience in travel, straight to your inbox.
           </p>
           <div className="news-letter-inputs">
             <input

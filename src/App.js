@@ -18,7 +18,7 @@ function App() {
     <>
       <Favicon url={icon} />    
     
-      <BrowserRouter>
+      <BrowserRouter >
       <Header />
          <Routes>
              <Route path="/" element={<Home />} />

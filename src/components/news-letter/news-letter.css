@@ -9,7 +9,7 @@
     align-items: stretch;
     justify-content: space-between;
     height: 500px;
-    background-color: #d1f6e2;
+    background-color:#1a2b49;
 }
 
 .news-letter-image-wrapper {
@@ -27,10 +27,11 @@
     align-self: center;
     text-align: center;
     padding: 17px;
+    color: white    ;
 }
 
 .news-letter-content-title {
-    color: var(--primary-text-color);
+    color: white;
     font-size: 30px;
 }
 
@@ -52,10 +53,11 @@
     width: 100%;
     border-radius: 7px;
     margin-bottom: 10px;
+    color: #766676;
 }
 
 .news-letter-btn {
-    background-color: blue;
+    background-color: #0d1d38;
     color: white;
     cursor: pointer;
     border-radius: 60px;
@@ -64,8 +66,14 @@
     font-size: 21px;
 }
 
+.news-letter-btn:hover {
+    background-color: #050c1a;
+    transform: scale(1.05);
+    
+}
+
 @media (max-width: 720px){
-    .news-letter-image-wrappper {
+    .news-letter-image-wrapper {
         display: none;
     }
 
@@ -73,4 +81,7 @@
         width: 100%;
         padding: 17px;
     }
+     .news-letter-container{
+        height: 376px;
+     }
 }

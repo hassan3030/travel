@@ -1,4 +1,4 @@
-import { useEffect , useState} from "react";
+import { useEffect } from "react";
 import "./pagination.css";
 
 const Pagination = ({ pages, currentPage, setCurrentPage }) => {
@@ -11,11 +11,13 @@ const Pagination = ({ pages, currentPage, setCurrentPage }) => {
   // let x = arrPage.fill(startPage+1, startPage, endPage)
   // setArrPage(x)
   // console.log('page arr ' , arrPage)
-  const generatePages = [];
+  const generatePages = []; 
   for (let i = 1; i <= pages; i++) {
     generatePages.push(i);
+   
   }
- 
+
+
   return (
     <div className="pagination">
       <button
@@ -25,6 +27,8 @@ const Pagination = ({ pages, currentPage, setCurrentPage }) => {
       >
         Previous
       </button>
+
+      
       {generatePages.map((page) => (
         <div
           onClick={() => setCurrentPage(page)}
